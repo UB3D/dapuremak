@@ -1,0 +1,63 @@
+/* CSS Document */
+ body{
+ font-family:trebuchet ms;
+ font-size:36px;
+ color:white;
+}.container {
+ width: 30%;
+ margin-top: 5%;
+ border-radius:15px;
+ margin-left: 35%;
+ background-color: #ccc;
+ padding: 20px 25px;
+}
+h2{
+ background-color: #FF4500;
+ padding: 10px 10px;
+ margin: -10px -50px;
+ text-align:center;
+ color: #fff;
+}
+
+
+input[type=text]{
+ width: 98%;
+ height: 50px;
+ padding: 5px;
+ margin-bottom: 25px;
+ margin-top: 5px;
+border-radius:15px;
+ border: 2px solid #ccc;
+ color: grey;
+ font-size: 16px;
+}
+input[type=password]{
+ width: 98%;
+border-radius:15px;
+height: 50px;
+ padding: 5px;
+ margin-bottom: 25px;
+ margin-top: 5px;
+ border: 2px solid #ccc;
+ color: grey;
+ font-size: 16px;
+}
+
+label{
+ color: #FF4500;
+ text-shadow: 0 1px 0 #fff;
+ font-size: 14px;
+ font-weight: bold;
+}
+
+input[type=submit]{
+ font-size: 16px;
+ background: #FF4500 5%;
+ color: white;
+border-radius:8px;
+ font-weight: bold;
+ cursor: pointer;
+ width: 50%;
+ padding: 10px 0;
+ outline:none;
+}
